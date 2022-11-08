@@ -1,3 +1,8 @@
+// Função para banner carrossel dinamico
+// Contrução de array, funcões carrossel.
+
+// inicio array banner carrossel
+
 const banners = [
     {
         title: "França",
@@ -51,7 +56,16 @@ const banners = [
     }
 ];
 
+// fim array banner carrossel
+
+// inicio função carrossel
+
+
+  
+
 const mioloCarousel = document.querySelector("#miolo-carousel");
+
+
 const generateBanner = () => {
     let itensCarousel = '';
     let idx = 0;
@@ -76,9 +90,22 @@ const generateBanner = () => {
 
         idx++;
     }
+    itensCarousel += `
+    <button class="carousel-control-prev zIndex999" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next zIndex999" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>`
     mioloCarousel.innerHTML = itensCarousel;
 }
 
 document.addEventListener('DOMContentLoaded', function () {
     generateBanner();
 })
+
+// fim função carrossel

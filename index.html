@@ -5,15 +5,185 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/ba2151cb72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/libs/slick/slick.css">
+    <link rel="stylesheet" href="./assets/libs/slick/slick-theme.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ba2151cb72.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>TURISMO PELO MUNDO</title>
 </head>
 
 <body>
-    <div class="bg-top">
+
+<!-- Inicio loader -->
+
+<div class="d-flex justify-content-center">
+    <div class="spinner-border text-warning" style="width: 8rem; height: 8rem;" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+<!-- Fim loader -->
+
+<!-- inicio placeholder -->
+
+
+<div id="placeholder" class="placeholder-glow">
+    <div id="banner-placeholder" class="placeholder bg-light"></div>
+    <div id="carousel-placeholder" class="placeholder bg-light"></div>
+    <h2 class="card-title placeholder-glow">
+        <span class="placeholder bg-light  col-12"></span>
+      </h2>
+
+    <div id="catalogo-placeholder" class="container">
+        <div class="row">
+            <p class="card-text placeholder-glow">
+                <span class="placeholder bg-light col-7"></span>
+            </p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="card-text placeholder-glow">
+                <span class="placeholder bg-light col-7"></span>
+            </p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="card-text placeholder-glow">
+                <span class="placeholder bg-light col-7"></span>
+            </p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="card-text placeholder-glow">
+                <span class="placeholder bg-light col-7"></span>
+            </p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="card-text placeholder-glow">
+                <span class="placeholder bg-light col-7"></span>
+            </p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="card-text placeholder-glow">
+                <span class="placeholder bg-light col-7"></span>
+            </p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="card-text placeholder-glow">
+                <span class="placeholder bg-light col-7"></span>
+            </p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="card-text placeholder-glow">
+                <span class="placeholder bg-light col-7"></span>
+            </p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="placeholder bg-light placeholder-item"></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- fim placeholder -->
+
+<!-- inicio menu navegação com logo -->
+
+    <div id="topo" style="display: none;" class="bg-top">
         <header class="container">
             <nav class="navbar  txtLato20 navbar-expand-lg navbar-dark bg-transparent">
                 <div class="container-xl">
@@ -39,14 +209,14 @@
                                     Destinos
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#brasil">Brasil</a></li>
-                                    <li><a class="dropdown-item" href="#europa">Europa</a></li>
-                                    <li><a class="dropdown-item" href="#eua">Estados Unidos</a></li>
-                                    <li><a class="dropdown-item" href="#amerS">América do Sul</a></li>
-                                    <li><a class="dropdown-item" href="#amerCN">América Central e Norte</a></li>
-                                    <li><a class="dropdown-item" href="#asia">Ásia</a></li>
-                                    <li><a class="dropdown-item" href="#oceania">Oceania</a></li>
-                                    <li><a class="dropdown-item" href="#africa">África</a></li>
+                                    <li><a class="dropdown-item" href="#catalogoBrasil">Brasil</a></li>
+                                    <li><a class="dropdown-item" href="#catalogoEuropa">Europa</a></li>
+                                    <li><a class="dropdown-item" href="#catalogoEUA">Estados Unidos</a></li>
+                                    <li><a class="dropdown-item" href="#catalogoAmerS">América do Sul</a></li>
+                                    <li><a class="dropdown-item" href="#catalogoAmerCN">América Central e Norte</a></li>
+                                    <li><a class="dropdown-item" href="#catalogoAsia">Ásia</a></li>
+                                    <li><a class="dropdown-item" href="#catalogoOceania">Oceania</a></li>
+                                    <li><a class="dropdown-item" href="#catalogoAfrica">África</a></li>
 
 
                                 </ul>
@@ -71,6 +241,10 @@
             </nav>
         </header>
 
+        <!-- fim do menu navegação -->
+
+        <!-- Inicio banner inicial -->
+
         <section class="banner container lightSpeedIn">
             <div>
                 <h2>" Uma vez por ano, vá a algum lugar onde nunca esteve antes "</h2>
@@ -79,7 +253,8 @@
         </section>
     </div>
 
-    <main>
+    <main id="mainPage" style="display: none;">
+        <!-- <main id="mainPage"> -->
         <section class="inicio container">
             <p>Não faltam novos lugares no mundo para descobrir! Uma cidade que oferece grande diversidade, paisagens
                 deslumbrantes e a mais diversa natureza. Alguns destinos se destacam pela estrutura bem edificada,
@@ -89,6 +264,10 @@
             <h2 class="animacao">Escolha seu proximo destino agora!</h2>
         </section>
 
+         <!-- Fim banner inicial -->
+
+
+        <!-- Inico seção com carrossel dinamico sobre os 10 paises mais visitados do mundo -->
         <section class="txtCarousel">
             <h2 class="">Se encante pelos 10 países mais visitados do mundo</h2>
 
@@ -124,659 +303,79 @@
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Fim seção com carrossel dinamico -->
 
-        <section id="brasil" class="destinos container">
-            <h2>Destinos mais procurados do Brasil</h2>
-            <div>
-                <div class="row">
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/brasil/rio-de-janeiro-1963744_640.jpg"
-                            alt="vista áerea da Enseada de Botafogo e Pão de Açucar">
-                        <div class="postLocal">
-                            <h3><em><strong>Rio de Janeiro, RJ</strong></em></h3>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModalRio"><i
-                                    class="fa-solid fa-circle-info"></i></a>
-                        </div>
-                    </article>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModalRio" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <div class="modal-title">
-                                        <img src="./assets/img/brasil/rio-de-janeiro-1963744_640.jpg "
-                                            alt="Vista aerea Rio de Janeiro com Pão de Açucar">
-                                    </div>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <h3>Rio de Janeiro, RJ</h3>
-                                    <p>Rio de Janeiro, informalmente referido como Rio, é um município brasileiro,
-                                        capital do estado homônimo, situado no Sudeste do país. Maior destino turístico
-                                        internacional no Brasil, da América Latina e de todo o Hemisfério Sul (em 2008),
-                                        a capital fluminense é a cidade brasileira mais conhecida no exterior.</p>
-                                    <!-- <h3><a href="#staticBackdropRio"><i class="fa-solid fa-plane-departure"></i></a>Meu
-                                        próximo destino</h3> -->
-                                    <button id="like">
-                                        <div class="label">
-                                            <i class="fa-solid fa-heart"></i>
-                                            <div class="number" id="number"> 1520 </div>
-                                        </div>
-                                    </button>
-                                    <button id="rioDeJaneiro" value="Rio de Janeiro" onclick="addMeusDestinos">
-                                        <div class="label">
-                                            <i class="fa-solid fa-user-plus"></i> Adicionar aos Meus Destinos.
-                                        </div>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        
 
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/brasil/sao-paulo-1197052_640.jpg" alt="Ponte Otavio Frias de Oliveira">
-                        <div class="postLocal">
-                            <h3><em><strong>São Paulo, SP</strong></em></h3>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                    class="fa-solid fa-circle-info"></i></a>
-                        </div>
-                        <!-- <li>São Paulo é a capital do estado homônimo e principal centro financeiro,
-                                        corporativo e mercantil da América do Sul. É a cidade mais populosa do Brasil,
-                                        do continente americano e de todo o hemisfério sul. São Paulo é a cidade
-                                        brasileira mais influente no cenário global, sendo, em 2016, a 11.ª cidade mais
-                                        globalizada do planeta</li> -->
+    <!-- Inicio dos catalogos de destinos. -->
 
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/brasil/salvador-2379443_640.jpg" alt="Predios coloridos do Pelourinho">
-                        <div class="postLocal">
-                            <h3><em><strong>Salvador, BA</strong></em></h3>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                    class="fa-solid fa-circle-info"></i></a>
-                        </div>
-                        <!-- <li>Salvador é a capital do estado da Bahia. Salvador é notável em todo o país pela
-                                        sua gastronomia, música e arquitetura, reconhecidas também internacionalmente. A
-                                        influência africana em muitos aspectos culturais da cidade a torna o centro da
-                                        cultura afro-brasileira.Primeira capital da América Portuguesa, a cidade é uma
-                                        das mais antigas do continente americano e uma das primeiras cidades planejadas
-                                        no mundo, ainda no período do Renascimento.</li>
-                                    <li> -->
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/brasil/brasilia-3661533_640.jpg"
-                            alt="A Catedral Metropolitana - Nossa Senhora Aparecida ou simplesmente Catedral de Brasília">
-                        <div class="postLocal">
+    <section id="catalogoBrasil" class="destinoCarousel">
+        <h2 >Destinos mais procurados do Brasil <a href="#"><i class="fa-solid fa-caret-up"></i></a></h2>
+        <div class="catalogoBrasil catalogos"></div>
+    </section>
 
-                            <h3><em><strong>Brasília, DF</strong></em></h3>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                    class="fa-solid fa-circle-info"></i></a>
+    <section id="catalogoEuropa" class="destinoCarousel">
+        <h2>Destinos mais belos da Europa <a href="#"><i class="fa-solid fa-caret-up"></i></a></h2>
+        <div class="catalogoEuropa catalogos"></div>
+    </section>
 
-                            <!-- <li>Brasília é a capital federal do Brasil e a sede de governo do Distrito Federal.
-                                        A capital brasileira é a maior cidade do mundo construída no século XX. Como
-                                        capital nacional, Brasília abriga a sede dos três poderes da República
-                                        (Executivo, Legislativo e Judiciário) e 127 embaixadas estrangeiras. A cidade é
-                                        considerada um Patrimônio Mundial pela UNESCO, devido ao seu conjunto
-                                        arquitetônico e urbanístico</li> -->
-                        </div>
-                    </article>
+    <section id="catalogoEUA" class="destinoCarousel">
+        <h2>Destinos mais conhecidos dos EUA <a href="#"><i class="fa-solid fa-caret-up"></i></a></h2>
+        <div class="catalogoEUA catalogos"></div>
+    </section>
+
+    <section id="catalogoAmerS" class="destinoCarousel">
+        <h2>Destinos mais procurados da América do Sul <a href="#"><i class="fa-solid fa-caret-up"></i></a></h2>
+        <div class="catalogoAmerS catalogos"></div>
+    </section>
+
+    <section id="catalogoAmerCN" class="destinoCarousel">
+        <h2>Destinos mais procurados da América Central e do Norte <a href="#"><i class="fa-solid fa-caret-up"></i></a></h2>
+        <div class="catalogoAmerCN catalogos"></div>
+    </section>
+
+    <section id="catalogoAsia" class="destinoCarousel">
+        <h2>Destinos mais procurados da Ásia <a href="#"><i class="fa-solid fa-caret-up"></i></a></h2>
+        <div class="catalogoAsia catalogos"></div>
+    </section>
+
+    <section id="catalogoOceania" class="destinoCarousel">
+        <h2>Destinos mais procurados da Oceania <a href="#"><i class="fa-solid fa-caret-up"></i></a></h2>
+        <div class="catalogoOceania catalogos"></div>
+    </section>
+
+    <section id="catalogoAfrica" class="destinoCarousel">
+        <h2>Destinos mais procurados da África <a href="#"><i class="fa-solid fa-caret-up"></i></a></h2>
+        <div class="catalogoAfrica catalogos"></div>
+    </section>
+
+    <!-- fim do catalogo de destinos. -->
+
+    <!-- Modal dinamico com informações sobre os destinos. -->
+    
+    <div class="modal fade" id="catalogoModal" tabindex="-1" aria-labelledby="catalogoModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="catalogoModalLabel"></h1>
                 </div>
-            </div>
-        </section>
+                <div class="modal-body">
 
-        <section id="europa" class="destinos container">
-            <h2>Destinos mais belos da Europa</h2>
-            <div>
-                <div class="row">
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/europa/paris-3349075_640.jpg" alt="Torre Eifel">
-                        <div class="postLocal">
-                            <h3><em><strong>Paris, França</strong></em></h3>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                    class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Paris é a capital e a mais populosa cidade da França. Desde o século XVII, Paris
-                                        é um dos principais centros de finanças, diplomacia, comércio, moda, ciência e
-                                        artes da Europa. De acordo com a Pesquisa de Custo de Vida da Economist
-                                        Intelligence Unit em 2018, Paris era a segunda cidade mais cara do mundo, atrás
-                                        apenas da Singapura e à frente de Zurique, Hong Kong, Oslo e Genebra. Abrangendo
-                                        numerosos monumentos e por conta de seu considerável papel político e econômico,
-                                        Paris é também uma importante cidade na história do mundo. Sua posição numa
-                                        encruzilhada entre os itinerários comerciais terrestres e fluviais no coração de
-                                        uma rica região agrícola a tornou uma das principais cidades francesas ao longo
-                                        do século X, beneficiada com palácios reais, ricas abadias e uma catedral.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/europa/amsterdam-2989865_640.jpg"
-                            alt="Canal de Amsterdan com barcos e sua arquitetura carcteristica">
-                        <div class="postLocal">
-                            <h3><em><strong>Amsterdã, Holanda</strong></em></h3>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                    class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Amesterdã é a capital e a cidade mais populosa do Reino dos Países Baixos. O seu
-                                        estatuto de capital holandesa é garantido pela Constituição dos Países Baixos,
-                                        embora não seja a sede do governo holandês, que fica em Haia. O nome da cidade
-                                        deriva Amstelredamme, uma indicação de sua origem como uma represa do rio
-                                        Amstel. Originária de uma pequena vila de pescadores que surgiu no final do
-                                        século XII, Amesterdã tornou-se um dos portos mais importantes do mundo durante
-                                        o Século XVII. Os canais de Amesterdão e a Linha de Defesa de Amesterdão são
-                                        considerados Patrimónios Mundiais pela UNESCO.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <div class="postLocal"></div>
-                        <img src="./assets/img/europa/prague-3010407_640.jpg" alt="Castelo de Praga iluminado a noite">
-                        <div class="postLocal">
-                            <h3><em><strong>Praga, República Tcheca</strong></em></h3> <a href="#"
-                                data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                    class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Praga é a capital e a maior cidade da República Tcheca, situada na margem do
-                                        Vltava. Conhecida como "cidade das cem cúpulas", Praga é um dos mais belos e
-                                        antigos centros urbanos da Europa, famosa pelo extenso patrimônio arquitetônico
-                                        e rica vida cultural. Importante também como núcleo de transportes e
-                                        comunicações, é o principal centro econômico e industrial da Chéquia. Situada na
-                                        Boêmia central, a cidade de Praga localiza-se sobre colinas, em ambas as margens
-                                        do rio Vltava, pouco antes de sua confluência com o rio Elba. O curso sinuoso do
-                                        rio através da cidade, cheia de belas e antigas pontes, contrasta com a presença
-                                        imponente do grande Castelo de Praga em Hradcany, que domina a capital na margem
-                                        esquerda (oriental) do Vltava.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/europa/roma-2182371_640.jpg" alt="Coliseu de Roma">
-                        <div class="postLocal">
-                            <h3><em><strong>Roma, Itália</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Roma é a capital da Itália e também da região do Lácio, além de ser o centro da
-                                        Cidade Metropolitana de Roma. A cidade está localizada na porção centro-oeste da
-                                        Península Itálica, ao longo das margens do rio Tibre. A Cidade do Vaticano (o
-                                        menor país do mundo) é um país independente dentro dos limites da cidade de
-                                        Roma, o único exemplo existente de um país dentro de uma cidade no mundo. Roma é
-                                        muitas vezes referida como a "Cidade das Sete Colinas" devido à sua localização
-                                        geográfica, e também como a "Cidade Eterna", por conta de sua longa história.
-                                        Roma é geralmente considerada o "berço da cultura e da civilização ocidental e
-                                        cristã" e o centro da Igreja Católica. A história de Roma abrange 28 séculos.
-                                    </li> -->
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="eua" class="destinos container">
-            <h2>Destinos mais conhecidos dos EUA</h2>
-            <div>
-                <div class="row">
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/eua/washington-dc-85531_640.jpg" alt="Capitólio a noite">
-                        <div class="postLocal">
-                            <h3><em><strong>Washington, DC</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Washington é a capital e o distrito federal dos Estados Unidos. O Distrito de
-                                        Colúmbia, formado oficialmente em 16 de julho de 1790 é o distrito federal dos
-                                        Estados Unidos, Washington foi nomeada em homenagem ao primeiro Presidente dos
-                                        Estados Unidos, George Washington. Washington abriga as sedes dos três braços do
-                                        governo dos Estados Unidos, o Legislativo, o Executivo e o Judiciário. Além
-                                        disso, a cidade abriga também as sedes do Fundo Monetário Internacional, do
-                                        Banco Mundial, da Organização dos Estados Americanos, entre diversas outras
-                                        instituições nacionais e internacionais.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/eua/new-york-1587558_640.jpg"
-                            alt="Rua de Nova Iorque cheia de luzes e pessoas">
-                        <div class="postLocal">
-                            <h3><em><strong>Nova Iorque, NY</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Nova Iorque é a cidade mais populosa dos Estados Unidos. A cidade exerce um
-                                        impacto significativo sobre o comércio, finanças, mídia, arte, moda, pesquisa,
-                                        tecnologia, educação e entretenimento de todo o planeta. Nova Iorque abriga a
-                                        sede da Organização das Nações Unidas (ONU), sendo um importante centro para
-                                        assuntos internacionais e amplamente considerada como a capital cultural do
-                                        mundo. Nova Iorque tem suas raízes na sua fundação em 1624 como um posto de
-                                        comércio por colonos neerlandeses, sendo nomeada Nova Amsterdã, em 1626.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/eua/las_vegas-932708_640.jpg" alt="Letreiro da cidade de Las Vegas">
-                        <div class="postLocal">
-                            <h3><em><strong>Las Vegas, NV</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Las Vegas, oficialmente Cidade de Las Vegas. Las Vegas é popularmente famosa
-                                        devido aos seus hotéis luxuosos e casinos, o que impulsiona o turismo na cidade.
-                                        A cidade está localizada na área metropolitana Las Vegas Valley, onde se
-                                        encontra a avenida Las Vegas Boulevard que contém os casinos mais imponentes do
-                                        mundo. A Las Vegas Boulevard e a região de Old Town Las Vegas, são as duas
-                                        regiões mais visitadas de Las Vegas Valley e que concentram praticamente todas
-                                        as principais atrações turísticas. Na área do entretenimento a cidade se destaca
-                                        por ser palco da residência de shows fixos de grandes ícones da indústria
-                                        musical.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/eua/sao_francisco-2154194_640.jpg" alt="Ponte Golden Gate">
-                        <div class="postLocal">
-                            <h3><em><strong>São Francisco, CA</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>São Francisco, é uma cidade do estado da Califórnia. São Francisco é o centro
-                                financeiro, cultural e de transportes da área da baía de São Francisco. Em 1776,
-                                os espanhóis estabeleceram uma fortaleza no Golden Gate e uma missão chamada de
-                                Francisco de Assis no local. A Corrida do ouro na Califórnia, em 1848,
-                                impulsionou a cidade em um período de rápido crescimento. São Francisco é um
-                                centro de ativismo liberal nos Estados Unidos. São Francisco é um popular
-                                destino turístico internacional, conhecido pela sua neblina fria do verão,
-                                íngremes colinas, eclética mistura de arquitetura vitoriana e moderna e seus
-                                marcos históricos famosos, incluindo a Ponte Golden Gate, os bondes e Chinatown.
-                                A cidade é também um centro financeiro e bancário, sendo sede de mais de 30
-                                instituições financeiras internacionais.</li> -->
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="amerS" class="destinos container">
-            <h2>Países mais procurados da América do Sul</h2>
-            <div>
-                <div class="row">
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/am_sul/argentina-gdf4da2bab_640.jpg" alt="El Caminito Buenos Aires">
-                        <div class="postLocal">
-                            <h3><em><strong>Argentina</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A Argentina é um país da América do Sul com uma área extensa que abrange
-                                        montanhas dos Andes, lagos glaciais e pradarias nos Pampas, ocupadas
-                                        tradicionalmente por seu famoso gado. O país é conhecido também por sua dança e
-                                        sua música, o tango. A capital cosmopolita, Buenos Aires, tem como centro a
-                                        Praça de Maio, cercada por edifícios imponentes do século XIX, como a Casa
-                                        Rosada, o emblemático palácio presidencial.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/am_sul/chile-g91a55984e_640.jpg" alt="Deserto do Atacama">
-                        <div class="postLocal">
-                            <h3><em><strong>Chile</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>O Chile é um país de território comprido e estreito que se estende pelo extremo
-                                oeste da América do Sul, com mais de 6.000 km de litoral ao longo do Oceano
-                                Pacífico. Santiago, sua capital, fica localizada em um vale cercado pelos Andes
-                                e pelas montanhas da Cordilheira da Costa do Pacífico Sul. Nessa cidade, a Plaza
-                                de Armas, repleta de palmeiras, abriga a catedral neoclássica e o Museu de
-                                História Nacional. O imenso Parque Metropolitano tem piscinas, um jardim
-                                botânico e um zoológico.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/am_sul/colombia-farol-cartagena-g06a679723_640.jpg"
-                            alt="Praia com farol em Cartagena">
-                        <div class="postLocal">
-                            <h3><em><strong>Colombia</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A Colômbia é um país no extremo norte da América do Sul. Sua paisagem é marcada
-                                por florestas tropicais, pela Cordilheira dos Andes e por várias plantações de
-                                café. Na capital Bogotá, que se encontra a uma grande altitude, a Zona Rosa é
-                                conhecida por seus restaurantes e lojas. Cartagena, na costa caribenha, conta
-                                com uma Cidade Antiga colonial murada, um castelo do século XVI e recifes de
-                                corais.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/am_sul/peru-gd6332e7bd_640.jpg" alt="Ruinas de Machu Picchu">
-                        <div class="postLocal">
-                            <h3><em><strong>Peru</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>O Peru é um país da América do Sul que abriga uma parte da Floresta Amazônica e
-                                Machu Picchu, uma antiga cidade inca na cordilheira dos Andes. A região ao redor
-                                de Machu Picchu, que abrange o Vale Sagrado dos Incas, o Camino Inca e a cidade
-                                colonial de Cusco, é rica em sítios arqueológicos. Na costa árida do Pacífico
-                                fica Lima, a capital, com um centro colonial preservado e coleções importantes
-                                de arte pré-colombiana.</li> -->
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="amerCN" class="destinos container">
-            <h2>Países mais procurados da América Central e do Norte</h2>
-            <div>
-                <div class="row">
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/am_central_norte/canada-g9e27c6459_640.jpg"
-                            alt="Lago cercado de montanhas e árvores">
-                        <div class="postLocal">
-                            <h3><em><strong>Canadá</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>O Canadá é um país norte-americano que se estende desde os EUA, no sul, até o
-                                Círculo Polar Ártico, no norte. Entre suas grandes cidades estão a gigantesca
-                                Toronto; Vancouver, centro cinematográfico da costa oeste; Montreal e Québec
-                                City, que falam francês; e a capital, Ottawa. As vastas regiões de natureza
-                                selvagem do Canadá compreendem o Parque Nacional de Banff, repleto de lagos nas
-                                Montanhas Rochosas. Abriga também as Cataratas do Niágara, um famoso conjunto de
-                                enormes cachoeiras.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/am_central_norte/cancun-4301422_640.jpg"
-                            alt="Pier com vista para o maravilhoso mar azul do Caribe">
-                        <div class="postLocal">
-                            <h3><em><strong>México</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>O México é um país situado entre os Estados Unidos e a América Central,
-                                conhecido pelas praias no Pacífico e no Golfo do México e pela paisagem
-                                diversificada que inclui montanhas, desertos e selvas. Ruínas antigas, como
-                                Teotihuacán e a cidade maia de Chichén Itzá, estão espalhadas pelo país, assim
-                                como cidades da era colonial espanhola. Na capital, Cidade do México, lojas
-                                elegantes, museus renomados e restaurantes gourmet atendem às necessidades da
-                                vida moderna.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/am_central_norte/cathedral-nicaragua-g183873161_640.jpg"
-                            alt="a imponente Catedral de Granada">
-                        <div class="postLocal">
-                            <h3><em><strong>Nicaragua</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A Nicarágua, situada entre o Oceano Pacífico e o Mar do Caribe, é um país da
-                                    América Central conhecido pela impressionante paisagem que compreende lagos,
-                                    vulcões e praias. O vasto lago Manágua e o famoso estratovulcão Momotombo ficam
-                                    ao norte da capital Manágua. Ao sul está localizada Granada, conhecida pela
-                                    arquitetura colonial espanhola e por um arquipélago de ilhotas navegáveis e
-                                    ricas em pássaros tropicais.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/am_central_norte/panama-city-g980988e51_640.jpg"
-                            alt="Vista panoramica da Cidade do Panamá">
-                        <div class="postLocal">
-                            <h3><em><strong>Panamá</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>O Panamá é um país no istmo que liga a América Central à do Sul. O Canal do
-                                    Panamá, uma reconhecida proeza de engenharia, corta o centro do país, ligando os
-                                    oceanos Atlântico e Pacífico e criando uma importante rota de navegação. Na
-                                    capital, a Cidade do Panamá, arranha-céus modernos, cassinos e casas noturnas
-                                    contrastam com as construções coloniais do distrito de Casco Viejo e com a
-                                    floresta tropical do Parque Natural Metropolitano.</li>
-                                    </div> -->
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="asia" class="destinos container">
-            <h2>Países mais procurados da Ásia</h2>
-            <div>
-                <div class="row">
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/asia/muralha-da-china-sunset-g4c4339d81_640.jpg"
-                            alt="Muralha da China ao amanhecer">
-                        <div class="postLocal">
-                            <h3><em><strong>China</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A China é uma nação muito populosa da Ásia Oriental cuja ampla paisagem abrange
-                                    pradarias, desertos, montanhas, lagos, rios e mais de 14.000 km de litoral. A
-                                    capital Pequim combina a arquitetura moderna com locais históricos, como o
-                                    complexo de palácios da Cidade Proibida e a Praça da Paz Celestial. Xangai é um
-                                    centro financeiro global repleto de arranha-céus. A emblemática Muralha da China
-                                    corta a região norte do país de leste a oeste.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/asia/petra-ge81b516ba_640.jpg" alt="Lindo Casarão embutido nas pedras">
-                        <div class="postLocal">
-                            <h3><em><strong>Jordania</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A Jordânia, uma nação árabe situada na margem leste do rio Jordão, é conhecida
-                                    pelos monumentos antigos, pelas reservas naturais e pelos resorts à beira-mar. O
-                                    país abriga o famoso sítio arqueológico de Petra, a capital dos nabateus, que
-                                    data de aproximadamente 300 a.C. Situada em um estreito vale com tumbas, templos
-                                    e monumentos esculpidos nos penhascos de arenito cor-de-rosa que a rodeiam,
-                                    Petra faz jus ao apelido de "Cidade Rosa". </li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/asia/dubai-g54235da47_640.jpg" alt="arranha-céus de Dubai a noite">
-                        <div class="postLocal">
-                            <h3><em><strong>Emirados Árabes Unidos</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Os Emirados Árabes Unidos são uma nação da península Arábica localizada
-                                    predominantemente ao longo do Golfo Pérsico. O país é uma federação de 7
-                                    emirados. Abu Dhabi, a capital da ilha, abriga a Mesquita Xeique Zayed, com
-                                    lustres de cristal e espaço para 40.000 fiéis. Dubai conta com a ultramoderna
-                                    torre Burj Khalifa, enormes shopping centers e extravagantes atrações de
-                                    entretenimento.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/asia/japao-heritage-g76cb9f0e5_640.jpg"
-                            alt="Templo Japones cercado por floridas cerejeiras">
-                        <div class="postLocal">
-                            <h3><em><strong>Japão</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>O Japão, país insular no Oceano Pacífico, tem cidades densas, palácios
-                                    imperiais, parques nacionais montanhosos e milhares de santuários e templos. Os
-                                    trens-bala Shinkansen conectam as principais ilhas: Kyushu (com as praias
-                                    subtropicais de Okinawa), Honshu (onde ficam Tóquio e a sede do memorial da
-                                    bomba atômica de Hiroshima) e Hokkaido (famosa como destino para a prática de
-                                    esqui). Tóquio, a capital, é conhecida por seus arranha-céus e lojas e pela
-                                    cultura pop. </li> -->
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="oceania" class="destinos container">
-            <h2>Países mais procurados da Oceania</h2>
-            <div>
-                <div class="row">
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/oceania/bora-bora-gcf954a031_640.jpg"
-                            alt="Linda praia de águas azuis na Polinesia Francesa">
-                        <div class="postLocal">
-                            <h3><em><strong>Polinésia Francesa</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A Polinésia Francesa, uma coletividade ultramarina da França, abrange mais de
-                                    100 ilhas no Pacífico Sul e se estende por mais de 2.000 km. Dividida entre os
-                                    arquipélagos Austral, Gambier, Marquesas, Sociedade e Tuamotu, ela é conhecida
-                                    por suas lagoas rodeadas de corais e hotéis de bangalô sobre a água. As ilhas se
-                                    caracterizam por praias de areia preta e branca, montanhas, áreas remotas
-                                    selvagens e cachoeiras imponentes.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/oceania/fiji-g2230f817d_640.jpg"
-                            alt="Nascer do sol em praia com palmeiras">
-                        <div class="postLocal">
-                            <h3><em><strong>Ilhas Fiji</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>Fiji, país localizado no Pacífico Sul, é um arquipélago com mais de 300 ilhas
-                                    famoso pelas paisagens acidentadas, pelas praias repletas de palmeiras e pelos
-                                    recifes de corais com lagoas cristalinas. Suas principais ilhas, Viti Levu e
-                                    Vanua Levu, abrigam a maior parte da população. Viti Levu é onde fica a capital,
-                                    Suva, uma cidade portuária com arquitetura colonial britânica. O Fiji Museum,
-                                    localizado nos Thurston Gardens, da era vitoriana, oferece exposições
-                                    etnográficas.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/oceania/new-zealand-g468e830a5_640.jpg"
-                            alt="Estrada deserta para as montanhas">
-                        <div class="postLocal">
-                            <h3><em><strong>Nova Zelândia</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-                            <!--                             
-                                <li> Nova Zelândia é um país no sudoeste do Oceano Pacífico formado por 2 ilhas
-                                    principais, ambas marcadas por vulcões e glaciações. Na capital Wellington, na
-                                    Ilha Norte, fica o museu nacional Te Papa Tongarewa. O imponente Monte Victoria,
-                                    em Wellington, o Fiordland, na ilha Sul, e os Lagos do Sul foram cenário da
-                                    mítica Terra Média nos filmes da série "O Senhor dos Anéis", de Peter Jackson.
-                                </li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/oceania/sydney-opera-house-g86234d2a1_640.jpg"
-                            alt="A Casa de Ópera de Sidney a noite">
-                        <div class="postLocal">
-                            <h3><em><strong>Austrália</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A Austrália é um país continental cercado pelos oceanos Índico e Pacífico. Suas
-                                    principais cidades, Sydney, Brisbane, Melbourne, Perth e Adelaide, são
-                                    costeiras. Sua capital, Camberra, não é litorânea. O país é conhecido pela
-                                    Sydney Opera House, pela Grande Barreira de Coral, pelo vasto deserto interior
-                                    chamado Outback e por espécies animais únicas, como cangurus e ornitorrincos.
-                                </li> -->
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="africa" class="destinos container">
-            <h2>Países mais procurados da África</h2>
-            <div>
-                <div class="row">
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/africa/cidade_do_cabo_foto_aerea-g4dafe41a8_640.jpg"
-                            alt="Vista aerea da Cidade do Cabo">
-                        <div class="postLocal">
-                            <h3><em><strong>África do Sul</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A África do Sul é um país situado na extremidade sul do continente africano e
-                                    marcado por vários ecossistemas diferentes. O Parque Nacional Kruger, um destino
-                                    para safári no interior do país, é repleto de animais de grande porte. A
-                                    província de Cabo Ocidental tem praias, vinícolas exuberantes perto de
-                                    Stellenbosch e Paarl, colinas escarpadas no Cabo da Boa Esperança, florestas e
-                                    lagoas ao longo da Tuinroete (rota dos jardins) e a Cidade do Cabo, que fica ao
-                                    pé da montanha da Mesa, de topo achatado.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/africa/Egitopyramids-g0c56f9e46_640.jpg"
-                            alt="As famosas Piramides do Egito">
-                        <div class="postLocal">
-                            <h3><em><strong>Egito</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>O Egito, um país que liga o nordeste da África ao Oriente Médio, remonta ao
-                                    tempo dos faraós. Monumentos construídos milênios atrás ficam localizados ao
-                                    longo do fértil vale do rio Nilo, como as colossais Pirâmides de Gizé e a
-                                    Esfinge, além do Templo de Karnak (repleto de hieróglifos) e das tumbas do Vale
-                                    dos Reis, ambos em Luxor. A capital, Cairo, abriga monumentos otomanos como a
-                                    Mesquita de Muhammad Ali e o Museu Egípcio, com uma coleção de antiguidades.
-                                </li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/africa/seychelles-praia-g186ae0daf_640.jpg"
-                            alt="Praia rochosa com mar azul e um barco navegando ao fundo">
-                        <div class="postLocal">
-                            <h3><em><strong>Ilhas Seychelles</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>As Seychelles são um arquipélago de 115 ilhas no Oceano Índico, perto da costa
-                                    leste da África. Elas têm um grande número de praias, recifes de corais e
-                                    reservas naturais, além de animais raros como a tartaruga-das-seychelles. Mahé,
-                                    base para visitação das outras ilhas, abriga a capital Victoria. Destacam-se
-                                    também as florestas tropicais montanhosas do Parque Nacional Morne Seychellois e
-                                    praias como Beau Vallon e Anse Takamaka.</li> -->
-                        </div>
-                    </article>
-                    <article class="post col-lg-3 col-sm-6 col-12">
-                        <img src="./assets/img/africa/tanzania-elefantes-africa-g6e50f9998_640.jpg"
-                            alt="Manada de elefantes passeando pela savana">
-                        <div class="postLocal">
-                            <h3><em><strong>Tanzânia</strong></em></h3> <a href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"><i class="fa-solid fa-circle-info"></i></a>
-
-                            <!-- <li>A Tanzânia é um país na África Oriental conhecido por suas vastas áreas
-                                    selvagens, como as planícies do Parque Nacional de Serengeti, uma das mecas do
-                                    safári e habitada pelos cinco animais de grande porte mais difíceis de serem
-                                    caçados (elefante, leão, leopardo, búfalo e rinoceronte). Outro destaque é o
-                                    Parque Nacional de Kilimanjaro, onde fica a montanha mais alta da África. Em
-                                    alto-mar, estão as ilhas de Zanzibar, de influência árabe, e de Mafia, com um
-                                    parque marinho que abriga tubarões-baleia e recifes de corais. </li> -->
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <div class="modal-title" id="exampleModalLabel">
-                            <img src="./assets/img/passport-g6ca58d820_640.jpg" alt="">
-                        </div>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h3>Cidadão do mundo</h3>
-                        <p>Conhecer o mundo, se aventurar, se descobrir em cada canto novo, experimentar novos sabores…
-                            As coisas boas de uma viagem são infinitas! Além disso, viajando a gente percebe que não
-                            existem fronteiras e que a humanidade pode ser mais maravilhosa do que a gente pensa! Boa
-                            viagem, amigo! Vá na fé!</p>
-                        <!-- <h3><a href="#staticBackdropRio"><i class="fa-solid fa-plane-departure"></i></a> Meu próximo
-                            destino</h3> -->
-                        <button id="like">
-                            <div class="label">
-                                <i class="fa-solid fa-heart"></i>
-                                <div class="number" id="number"> 333 </div>
-                            </div>
-                        </button>
-                        <button id="Geral" value="Geral" onclick="addMeusDestinos">
-                            <div class="label">
-                                <i class="fa-solid fa-user-plus"></i> Adicionar aos Meus Destinos.
-                            </div>
-                        </button>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
+    <!-- fim do modal dinamico  -->
+    
+
+    <!-- Inicio seção de fusos horarios -->
+        
 
         <section class="fusoHorario destinos container">
             <h2>Fuso Horário no Mundo</h2>
@@ -823,11 +422,13 @@
             </div>
         </section>
 
+    <!-- Fim da função fusos horarios -->
+
     </main>
 
-    <footer id="contatos">
+    <!-- Inicio do rodapé com os contatos -->
 
-
+    <footer id="contatos" style="display: none;">
 
         <span class="logo">
             <h2><a href="#">Tr'ound</a></h2>
@@ -843,9 +444,24 @@
         <p>Às vezes tudo que a gente precisa é viajar</p>
     </footer>
 
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Fim do rodapé com os contatos -->
+
+
+    <!-- inclusão dos arquivos Javascript -->
+
+    <script src="./assets/libs/jquery/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="./assets/libs/slick/slick.min.js"></script>
+        <script src="./assets/js/carousel.js"></script>
+    <script src="./assets/js/modalCaousel.js"></script>
     <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/carousel.js"></script>
+    
+    
+  
+    
+   
+
 
 
 </body>
