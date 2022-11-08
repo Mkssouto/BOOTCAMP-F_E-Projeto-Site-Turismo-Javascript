@@ -188,7 +188,7 @@ catalogoEuropa : [
       curtidas: 537,
     },
     {
-      image: "am_sul/colombia-farol-cartagena-g06a679723_640.jpg",
+      image: "am_sul/colombia-faroL-cartagena-g06a679723_640.jpg",
       title: "Colombia",
       description:
       "A Colômbia é um país no extremo norte da América do Sul. Sua paisagem é marcada por florestas tropicais, pela Cordilheira dos Andes e por várias plantações de café. Na capital Bogotá, que se encontra a uma grande altitude, a Zona Rosa é conhecida por seus restaurantes e lojas. Cartagena, na costa caribenha, conta com uma Cidade Antiga colonial murada, um castelo do século XVI e recifes de corais. ",
